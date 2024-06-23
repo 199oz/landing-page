@@ -1,2 +1,2 @@
 # odin-landing-page
-this will be 
+this is a project about the odin project landing page.
