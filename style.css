@@ -97,8 +97,9 @@
 /* main */
 
 .main{
-    background-color: grey;
+    background-color: rgb(250, 231, 231);
     height: 50vh;
+    width: 100vw;
 }
 
 .main-title{
@@ -108,14 +109,20 @@
     font-size: 36px;
     margin-bottom: 20px;
     padding-top: 20px;
+    color: rgb(78, 78, 78);
 }
 
 .main-content{
     height: 200px;
     width: 200px;
-    border: 5px black solid;
+    border: 5px rgb(255, 255, 255) solid;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+.content-text{
+    font-family: hero;
+    font-size: 13px;
+    text-align: center;
 }
 
 .main-container{
@@ -135,11 +142,12 @@
 
 .body{
     height: 60vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: wrap column;
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(255, 255, 255);
 }
 
 .quotes{
@@ -152,6 +160,7 @@
 
 .footer{
     height:25vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
